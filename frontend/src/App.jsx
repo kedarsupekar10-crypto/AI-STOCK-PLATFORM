@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
-
+const API_BASE = "https://ai-stock-platform-h91p.onrender.com";
 function App() {
   const [symbol, setSymbol] = useState("RELIANCE");
   const [stock, setStock] = useState(null);
